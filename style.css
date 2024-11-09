@@ -1,0 +1,81 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Container styles */
+  .container {
+    
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add task styles */
+  .addTask {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .addTask input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .addTask button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .addTask button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Task list styles */
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ol h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ol li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ol .notComplete li {
+    background-color: #f4f4f4;
+  }
+  
+  ol .Complete li {
+    text-decoration: line-through;
+    color: #999;
+  }
+  .fa-check{
+    width: 25px;
+    height: 25px;
+  }
